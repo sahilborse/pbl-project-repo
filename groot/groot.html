@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groot Translator</title>
+    <style>
+        h1{
+            font-size: xx-large;
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color:black;
+            background-color: chocolate;
+            margin: auto;
+            text-align: center;
+            padding-top: 1rem; 
+            padding-bottom: 1rem;
+            font-style: italic;      
+        }      
+        .input{
+            height: 10rem;
+            width: 30rem;
+            margin: auto;
+            display: block;         
+        }
+        .translator{
+            display: block;
+            margin: auto;
+            font-size: xx-large;
+            background-color: chocolate;
+            border-radius: 0.5rem;
+            display: flex;
+           border-width: 0.5rem;
+
+        }
+        .output{
+            height: 10rem;
+            width: 30rem;
+            margin: auto;
+            background-color: white;
+        }
+        .container{
+        width:70% ;
+        margin:auto;
+        background-color: wheat;
+        }
+        span{
+            background-color: chocolate;
+            margin: auto;
+            display: block;
+        }   
+        p{   font-size: larger;
+            font-weight: 400;
+            text-align: center;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>I AM GROOT</h1><br>
+        <textarea class="input" id="INPUT" placeholder="Enter the text"></textarea>
+        
+        <br><br>
+        <button class="translator" id="btn-tran" onclick="clickHandler()">Translate</button><br>
+        <div class="output" placeholder="output text is available here" id="OUTPUT"></div>
+        
+        <p>@information:- This language is used in GARDIANS OF GALAXY.<br> An MARVEL produced series.<br>
+            It is inspired from a comic character name groot.<br>
+            Who is an celestial being and posses ability similar to hybrid of tree and humans. <br>
+        </p>
+        <div>Thank you</div>
+        </span>
+    </div>
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
