@@ -2,7 +2,7 @@ let input=document.querySelector("#INPUT")
 let output=document.querySelector("#OUTPUT")
 let TRAN_btn=document.querySelector("#btn-tran")
 
-let url = "https://api.funtranslations.com/translate/dolan.json"
+let url = "https://api.funtranslations.com/translate/navi.json"
 function transLate(input){
     return url + "?" + "text=" + input
 }
@@ -18,7 +18,7 @@ function clickHandler(){
     fetch(transLate(intext))
         .then(response=>response.json())
         .then(json => {
-            let newText =json.content.translated;
+            let newText =json.contents.translated;
              output.innerText = newText;
             })
         .catch(errorHandler)
