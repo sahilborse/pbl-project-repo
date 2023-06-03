@@ -1,8 +1,8 @@
 let input=document.querySelector("#INPUT")
 let output=document.querySelector("#OUTPUT")
-let TRAN_btn=document.queryselector("#btn-tran")
+let TRAN_btn=document.querySelector("#btn-tran")
 
-let url = "https://api.funtranslations.com/translate/groot.json"
+let url = "https://api.funtranslations.com/translate/dolan.json"
 function transLate(input){
     return url + "?" + "text=" + input
 }
@@ -24,46 +24,4 @@ function clickHandler(){
         .catch(errorHandler)
 
 }
-TRAN_btn.addEventListner("click", clickHandler);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+TRAN_btn.addEventListener("click", clickHandler)
