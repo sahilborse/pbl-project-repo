@@ -18,7 +18,7 @@ function clickHandler(){
     fetch(transLate(intext))
         .then(response=>response.json())
         .then(json => {
-            let newText =json.content.translated;
+            let newText =json.contents.translated;
              output.innerText = newText;
             })
         .catch(errorHandler)
