@@ -5,34 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Groot Translator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap" rel="stylesheet">
     <style>
-        h1{
+       img{
+        height: 30vh;
+        width: 30vh;
+        border-radius: 50%;
+        margin: auto;
+        
+       }
+       h1{
             font-size: xx-large;
             font-weight: bold;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            color:black;
-            background-color: chocolate;
+            font-family: 'rubik puddles';
+            font-display: bold;
+            color:white;
+            background-color:#08313A;
             margin: auto;
             text-align: center;
             padding-top: 1rem; 
             padding-bottom: 1rem;
-            font-style: italic;      
+            border-radius: 4vh;    
         }      
         .input{
             height: 10rem;
             width: 30rem;
             margin: auto;
             display: block;
+            border-radius: 1.5vh;
+            background-color:white;
                  
         }
         .translator{
             display: block;
             margin: auto;
             font-size: xx-large;
-            background-color: chocolate;
+            background-color: black;
+            color: white;
             border-radius: 0.5rem;
             display: flex;
-           border-width: 0.5rem;
+           /* border-width: 0.5rem; */
 
         }
         .output{
@@ -40,13 +52,19 @@
             width: 30rem;
             margin: auto;
             background-color: white;
+            border-radius: 1.5vh;
         }
         .container{
-        width:70% ;
-        margin:auto;
-        background-color: wheat;
+            
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        background-image: linear-gradient(rgb(42, 198, 52),black);
+        text-align: center;
+       
+
         }
-        span{
+        /* span{
             background-color: chocolate;
             margin: auto;
             display: block;
@@ -57,21 +75,21 @@
         }
         .end{
             text-align: center;
-        }       
+        }        */
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>I AM GROOT</h1><br>
+        <img src="groot1.jpeg" alt="">
+     
+       
         <textarea class="input" id="INPUT" placeholder="Enter the text"></textarea>
         
         <br><br>
         <button class="translator" id="btn-tran" onclick="clickHandler()">Translate</button><br>
         <div class="output" placeholder="output text is available here" id="OUTPUT"></div>
         <span>
-        <p>@information:- This language is used in GARDIANS OF GALAXY.<br> An MARVEL produced series.<br>
-            It is inspired from a comic character name groot.<br>
-            Who is an celestial being and posses ability similar to hybrid of tree and humans. <br>
+      
         </p>
         <div class="end">Thank you</div>
         </span>
