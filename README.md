@@ -7,3 +7,4 @@
 ![donald duck](https://github.com/ro23op/pbl-project-repo/assets/134946063/aef89a19-3acb-4ec8-9444-6a18616d8ff5)
 ![boyavatar](https://github.com/ro23op/pbl-project-repo/assets/134946063/ffab13b8-321b-47af-9d82-db839bb933e2)
 ![girlavatar](https://github.com/ro23op/pbl-project-repo/assets/134946063/d1a3026a-6205-43c4-8305-b1b6f0265c90)
+![groot1](https://github.com/ro23op/pbl-project-repo/assets/134946063/7b8aa1d9-898b-47bd-b6f0-7b14a2fd39bf)
