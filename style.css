@@ -10,7 +10,218 @@
 .heading{
     color: white;
     background-color:black;
-    font-size: 4rem;
+    font-size: 4rem;/* *{
+    margin: 0;
+    padding: 0;
+} */
+ body{
+    background-image:linear-gradient(45deg,rgb(206, 45, 177),rgb(67, 67, 228));
+    /* background-image: url(https://www.rankraiser.com/wp-content/uploads/2015/04/loaders1.png);  */
+  
+}
+.heading{
+    color: white;
+    background-color:black;
+    font-size: 9.5vh;
+    font-weight: bolder;
+    font-family: cursive;
+    font-style: normal;
+    margin: auto;
+    display: block;
+    border-radius: 1rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.main-container{
+        display: flex;
+        height: 65vh;
+        align-items: center;
+        /* background-image: linear-gradient(black,white,45deg); */
+      
+    }
+ 
+    .duck:hover{
+        transform: scale(1.1);
+        box-shadow: 10px 10px  10px black;
+        
+    }
+    
+    .Avatar:hover{
+        transform: scale(1.1);
+        box-shadow: 10px 10px  10px black;
+    }
+    .minion:hover{
+        transform: scale(1.1);
+        box-shadow: 10px 10px  10px black;
+    }
+   footer{
+    background-color: black;
+    color: white;
+   }
+   .last{
+    background-color: black;
+    color: white;
+
+   }
+   img{
+    border-radius: 50%;
+    height: 15vh;
+    align-items: center;
+    margin: .5vh;
+
+   }
+
+
+.groot:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 10px  10px black;
+   
+}
+.groot{
+    
+    border-width: 0.5rem;
+    border-color: black;
+    height: 55vh;
+    border-radius: 10%;
+    border-style: solid;
+    box-shadow: 7px 7px 10px black;
+    
+    /* background-color:rgb(63, 247, 130);
+    background-color: #63ee9b; */
+    background-color: #ec795c;
+    width: 15vw;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+    margin:0vh 5vh;
+    transition: ease-in-out, 1s;
+    scale: 1;
+   
+   
+    
+
+
+
+}
+.minion{  border-width: 0.5rem;
+    border-color: black;
+    height: 55vh;
+    border-radius: 10%;
+    border-style: solid;
+    box-shadow: 7px 7px 10px black;
+    background-color:#ecec5c;
+    width: 15vw;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+    margin:0vh 5vh;
+    transition: ease-in-out, 1s;
+    
+   
+   
+}
+
+.duck{ border-width: 0.5rem;
+    border-color: black;
+    height: 55vh;
+    border-radius: 10%;
+    border-style: solid;
+    box-shadow: 7px 7px 10px black;
+    background-color: rgb(146, 58, 197);
+    /* background-color: #ecec5c; */
+    width: 15vw;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+    margin:0vh 5vh;
+    transition: ease-in-out, 1s;
+}
+.Avatar{border-width: 0.5rem;
+    border-color: black;
+    height: 55vh;
+    border-radius: 10%;
+    border-style: solid;
+    box-shadow: 7px 7px 10px black;
+    background-color: #00e5ff;
+    /* background-color: #ecec5c; */
+    width: 15vw;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+    margin:0vh 5vh;
+    transition: ease-in-out, 1s;
+}
+.link{
+    color:white;
+    font-size: larger;
+    background-color:black;
+    border: 2px black ;
+    border-radius: 12px;
+}
+h2{
+    font-size: 5vh;
+    font-family: 'Caveat', cursive;
+    font-weight: bolder;
+    
+}
+.info{
+    color: black;
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: 'Caveat', cursive;
+    font-variant: small-caps;
+    font-display: initial;
+}
+.image1{
+    
+    border-radius: 50%;
+
+}
+.left{
+    background-color: black;
+    color: white;
+    /* margin: auto; */
+    border-radius:  20px;
+    height: 10vh;
+    align-items: center;
+    padding-top: 2vh;
+ 
+
+    
+}
+.left ul li a{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline;
+    margin: 1.5vw;
+    padding-top :2vh; 
+    
+}
+li{
+    color: white;
+    display: inline;
+    height: 10vh;
+    
+   
+}
+/* .left{
+    font-size: xx-large;
+    font-weight: bold;
+    padding-right: 25%;
+    padding-left:10%;
+    display: inline;
+} */
+
+.team{
+    color: whitesmoke;
+}
+.last{
+    text-align: center;
+    font-size:unset;
+}
+
     font-weight: bolder;
     font-family: cursive;
     font-style: normal;
