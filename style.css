@@ -179,7 +179,8 @@ h2{
     
 }
 .left ul li a{
-    color: white;
+     text-decoration: none;
+            color: white;
     font-size: 25px;
     font-weight: bold;
     display: inline;
