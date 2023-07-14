@@ -7,6 +7,10 @@
     /* background-image: url(https://www.rankraiser.com/wp-content/uploads/2015/04/loaders1.png);  */
   
 }
+.main-container a{
+    text-decoration: none;
+   
+}
 .heading{
     color: white;
     background-color:black;
